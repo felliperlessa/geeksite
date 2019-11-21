@@ -1,0 +1,20 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$gs-darker: #242423;
+$gs-dark: #333533;
+$gs-yellow: #f5cb5c;
+$gs-gray: #cfdbd5;
+$gs-gray-light: #e8eddf;
+
+$theme-colors: (
+  "gs-darker": $gs-darker,
+  "gs-dark": $gs-dark,
+  "gs-yellow": $gs-yellow,
+  "gs-gray": $gs-gray,
+  "gs-gray-light": $gs-gray-light
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
